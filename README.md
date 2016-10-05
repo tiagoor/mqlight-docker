@@ -1,4 +1,5 @@
-# IBM® MQ Light
+# tor@openstack.eti.br
+# IBMÂ® MQ Light
 ![IBM MQ Light logo](MQLightForDocker.png)
 ## Overview
 
