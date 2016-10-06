@@ -1,12 +1,14 @@
 # tor@openstack.eti.br
-# IBM® MQ Light
-# ![IBM MQ Light logo](MQLightForDocker.png)
+# IBM® MQ Light v.cvstom thx.11.v38
+# 
 ## Overview
 
-This image contains [IBM MQ Light](https://developer.ibm.com/messaging/mq-light/).  
-The Dockerfile for this image can be found on the [ibm-messaging GitHub](https://github.com/ibm-messaging/mqlight-docker/blob/master/1.0/Dockerfile).
+This image contains [IBM MQ Light]
+      (https://developer.ibm.com/messaging/mq-light/).  
+The Dockerfile for this image can be found on the [ibm-messaging GitHub]
+       (https://github.com/ibm-messaging/mqlight-docker/blob/master/1.0/Dockerfile).
 
-## Usage
+## Vsage
 
 In order to use the image, it is necessary to accept the terms of the MQ Light license.  This is achieved by specifying the environment variable `LICENSE` equal to `accept` when running the image.  You can also view the license terms by setting this variable to `view`. Failure to set the variable will result in the termination of the container with a usage statement.
 
