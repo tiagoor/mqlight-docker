@@ -1,5 +1,5 @@
 # tor@openstack.eti.br
-# IBM® MQ Light v.cvstom thx.11.v38
+# IBM® MQ Light v.cvstom thx v.11.38
 # 
 ## Overview
 
