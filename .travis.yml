@@ -1,3 +1,19 @@
-language: bash
+sudo: required
 
-#sudo: required
+services:
+  - docker
+
+before_script:
+  - docker build --tag="thx1138/dmqlight"  .
+  
+script:
+  # THX Mqlight.
+  - echo "THX MQLight =================================================================== "
+  - >
+    docker run \
+    --env LICENSE=accept \
+    --volume /var/example:/var/mqlight \
+    --publish 5672:5672 \
+    --publish 9180:9180 \
+    --detach \
+    -d -t thx1138/dmqlight:1.0    
