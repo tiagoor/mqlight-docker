@@ -13,8 +13,8 @@
 # limitations under the License.
 ## tor@openstack.eti.br [AiB<]
 ##
-#FROM ubuntu:14.04
-FROM alpine
+FROM ubuntu:14.04
+#FROM alpine
 
 MAINTAINER Tiago Osvald Ramos <tor@openstack.eti.br>
 
