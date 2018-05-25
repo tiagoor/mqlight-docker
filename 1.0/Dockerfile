@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ## tor@openstack.eti.br [AiB<]
-
+##
 #FROM ubuntu:14.04
 FROM alpine
 
-MAINTAINER David McCann <mccannd@uk.ibm.com>
+MAINTAINER Tiago Osvald Ramos <tor@openstack.eti.br>
 
 ENV MQLIGHT_DOCKER_USER user
 ENV MQLIGHT_DOCKER_GROUP staff
