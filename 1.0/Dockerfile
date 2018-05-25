@@ -12,7 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:14.04
+#FROM ubuntu:14.04
+FROM alpine
 
 MAINTAINER David McCann <mccannd@uk.ibm.com>
 
