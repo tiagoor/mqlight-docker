@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch2
+      - image: debian:wheezy
     steps:
       - checkout
       - run:
