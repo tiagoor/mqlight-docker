@@ -73,7 +73,7 @@ licenseCheck()
 monitor()
 {
 	echo "----------------------------------------"
-	echo "Monitoring MQ Light..."
+	echo "Monitorando S[AiB<] MQ Light..."
 
 	# Loop until "dspmq" says the queue manager is running
 	until [ "`dspmq -n | cut -f3 -d"("`" == "RUNNING)" ]; do
