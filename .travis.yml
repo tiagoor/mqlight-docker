@@ -4,7 +4,7 @@ services:
   - docker
 
 before_script:
-  - docker build --tag="thx1138/dmqlight" -f 1.0/.
+  - docker build --tag="thx1138/dmqlight" --file="1.0/Dockerfile"
   
 script:
   # THX Mqlight.
