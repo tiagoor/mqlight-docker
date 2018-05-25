@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Greeting
-          command: echo Wheres the base.
+          command: echo Wheres the base 2.
       - run:
           name: Print the Current Time
           command: date
